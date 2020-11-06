@@ -3,7 +3,7 @@
 ## SMACSS and Responsive Web Design
 
 + About
-    + Building a single responsive web page using mobile-first approach. Practice with media query.
+    + Building a single responsive web page using mobile-first approach. Practice with media query and flexbox.
     
 + Author:
     + Stacy
