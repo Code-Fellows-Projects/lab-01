@@ -1,153 +1,173 @@
-*{ 
-    margin: auto;
- 
-    
-}
-@media (min-width: 768px){
-    #top-box {
-        background-color: black;
-        color: white;
-        width: 960px;
-        height: 100px;    
-        text-align: center;
-    }
-}
-
-@media (min-width: 480px) and (max-width: 767px){
-    #top-box {
-        background-color: seagreen;
-        width:480px;
-        height: 75px;
-        text-align: center;
-    }
-
-}
-
- .letters {
-border: 1px solid black;
-/* text-align: center; */
-/* text-align: justify; */
-text-align: center;
-
-
-
-/* justify-content: center; */
-}
-
-@media (min-width: 768px){
-    #box-b {
-        background-color: sienna;
-        float: left;
-        width: 200px;
-        height: 600px;
-
-    }
-}
-@media (min-width: 480px) and (max-width: 767px){
-    #box-b {
-        background-color: slateblue;
-        clear: left;
-        width: 480px;
-        height: 150px;
-
-    }
-}
-
-@media (min-width: 768px){
-    #two-box-one {
-        background-color: slategray;
-        width: 380px;
-        height: 200px;
-        float: left; 
-        /* clear: left;  */
-    }
-    #two-box-two{
-        background-color: purple;
-        width: 380px;
-        height: 200px;
-        float: right;
-        /* clear: left; */
-    }
-}
-
-@media (min-width: 480px) and (max-width: 767px){
-    #two-box-one {
-        background-color: springgreen;
-        width: 480px;
-        height: 125px;
-        /* float: left; */
-    }
-    #two-box-two{
-        background-color: purple;
-        width: 480px;
-        height: 125px;
-        /* float: right; */
-        /* clear: left; */
-    }
-}
-
-@media (min-width: 768px){
-    #four-box-one {
-        background-color: yellowgreen;
-        width: 190px;
-        height: 250px;
-        /* clear: right; */
-        float: left;
-       
+* {
+    width: 100vw;
+    height: auto;
       
-        /* clear: left;  */
-    }
-    #four-box-two {
-        background-color: yellow;
-        width: 190px;
-        height: 250px;
-        position: inline-block;
-        margin-left: 600px;
-       
-    }
+  }
 
-    
+  /* @media (min-width: 768px){
+    #cdefgh {   
+        display: flex;
+        /* align-content: flex-start; */
+
+
+
+
+  @media (min-width: 768px){
+      #top-box {
+         margin-top: 30px;
+        /* margin-right: 100px; */
+          background-color: black;
+          color: white;
+          width: 100.2vw;
+          height: 10.42vh;    
+          text-align: center;
+      }
+  }
+  
+   @media (min-width: 480px) and (max-width: 767px){
+      #top-box {
+        margin-top: 20px;
+          background-color: seagreen;
+          width: 50vw;
+          height: 9.44vh;
+          text-align: center;
+      }
+  
+  } 
+.letters {
+  border: 1px solid black;
+  text-align: center; 
+
 }
-
-@media (min-width: 480px) and (max-width: 767px){
-    #four-box-one {
-        background-color: rebeccapurple;
-        width: 240px;
-        height: 250px;
-        clear: both;
-        float: left; 
-      
-    }
-    #four-box-two {
-        background-color: rebeccapurple;
-        width: 240px;
-        height: 250px;
-        position: inline-block;
-        margin-left: 240px;
-        /* clear: left; */
-        /* float: right; */
-
-    }
-}
+  @media (min-width: 768px){
+      #box-b {
+          background-color: sienna;
+        display: flex;
+        /* flex-direction: column; */
+          width: 20.87vw;
+          height: 62vh;
+  
+      }
+  }
+  @media (min-width: 480px) and (max-width: 767px){
+      #box-b {
+          background-color: slateblue;
+  /*         clear: left; */
+          width: 50vw;
+          height: 18.89vh;
+  
+      }
+  } 
+  @media (min-width: 768px){
+      #cd-box{
+          display: flex;
+          margin-left: 220px;
+          /* align-content: flex-start; */
+          /* margin-left: 100px; */
+      }
+      #two-box-c {
+          background-color: slategray;
+          width: 40vw;
+          height: 20.8vh;
         
-@media (min-width: 768px){
-     #box-i {
-        background-color: violet;
-        width: 760px;
-        height: 150px;
-        float: right;
+      }
+      #two-box-d{
+          background-color: purple;
+          width: 40vw;
+          height: 20.8vh;
 
- }
-}
-                
-@media (min-width: 480px) and (max-width: 767px){
-    #box-i {
-        background-color: turquoise;
-        width: 480px;
-        height: 80px;
-        /* margin-top: 510px; */
-                    
-                        
+      }
+  }
+  
+   @media (min-width: 480px) and (max-width: 767px){
+      #two-box-c {
+          background-color: springgreen;
+          width: 50vw;
+          height: 20.8vh;
+          
+     }
+      #two-box-d{
+          background-color: purple;
+          width: 50vw;
+          height: 20.8vh;
+          /* float: right; */
+          /* clear: left; */
+      } 
+  } 
+  
+  @media (min-width: 768px){
+/* 
+      #efgh {
+        display: flex;
+      }
+    } */
+
+ 
+          #ef{
+            display: flex;
+        } 
+         #gh{
+            display: flex;
+            
+           
+         }
+         
+        
+
+      #four-box-one {
+          background-color: rgb(147, 212, 16);
+          width: 19.8vw;
+          height: 26.06vh;
+
+      }
+      #four-box-two {
+          background-color: yellow;
+          width: 19.8vw;
+          height: 26.06vh;
+      
+         
+      }
     }
-}
-                
+  
+  @media (min-width: 480px) and (max-width: 767px){
+
+      #ef{
+          display: flex;
+
+      }
+      #gh{
+          display: flex;
+      }
+      #four-box-one {
+          background-color: rebeccapurple;
+          width: 25vw;
+          height: 31.48vh;
+       
+      }
+      #four-box-two {
+          background-color: rgb(52, 1, 104);
+          width: 25vw;
+          height: 31.48vh;
+
+      }
+  }
+          
+  @media (min-width: 768px){
+       #box-i {
+          background-color: violet;
+          width: 79.16vw;
+          height: 18.89vh;
+        
+       }
+   }
+                  
+  @media (min-width: 480px) and (max-width: 767px){
+      #box-i {
+          background-color: turquoise;
+          width: 50vw;
+          height: 10.07vh;
+        
+                      
+                          
+      }
+  }
